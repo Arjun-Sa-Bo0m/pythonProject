@@ -1,5 +1,6 @@
 # program to tell user if the number is prime number
-num = int(input("Enter any number"))
+
+num = int(input("Enter any number:  "))
 counter = 2
 isPrime = True
 while counter < num:
@@ -8,7 +9,6 @@ while counter < num:
         break
     else:
         counter = counter + 1
-
 if isPrime:
     print("This number is a prime number!")
 else:
